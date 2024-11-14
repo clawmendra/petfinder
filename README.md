@@ -16,22 +16,24 @@ Prepares the data for visualization and analysis (note: no specific analysis or 
 Columns Selected for Analysis
 The following columns are kept in the DataFrame for analysis:
 
-organization_id
-id
-species
-name
-age
+organization_id,
+id,
+species,
+name,
+age,
 breed
-mixed (breed mix status)
-color
-fixed (spayed/neutered status)
-house_trained
-good_with_children
-good_with_dogs
-good_with_cats
-gender
-distance (from search location)
-url (link to the PetFinder page)
+mixed (breed mix status),
+color,
+fixed (spayed/neutered status),
+house_trained,
+good_with_children,
+good_with_dogs,
+good_with_cats,
+gender,
+distance (from search location),
+url (link to the PetFinder page),
+
+
 Usage
 To run this notebook:
 
