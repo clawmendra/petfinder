@@ -41,17 +41,10 @@ To run this notebook:
 2. Insert the API credentials in the `client_id` and `client_secret` fields in the notebook
 3. Execute the cells to authenticate, collect, and view data on adoptable animals within the specified parameters
 
-## Requirements
+## Requirements and Libraries
 
 * Python 3.x
 * `requests`
 * `pandas`
 * `matplotlib`
 * `seaborn`
-
-
-## Future Improvements
-
-* **Enhanced Visualization**: Plot distributions of various animal attributes (e.g., age, distance)
-* **Data Filtering**: Add filters based on user needs, such as age or compatibility with other pets
-* **API Pagination Handling**: Improve pagination to handle larger data pulls without manual page limits
