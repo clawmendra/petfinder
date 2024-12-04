@@ -11,4 +11,6 @@ st.title('Pet Available for Adoption in UT')
 tab1, tab2 = st.tabs(['Cats', 'Dogs'])
 
 with tab1:
-    st.write("Select Age")
+    st.selectbox = ("Filter by age range:",
+                ("Baby", "Young", "Adult", "Senior"),
+                )
