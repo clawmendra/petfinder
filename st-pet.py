@@ -8,6 +8,9 @@ from my_plots import *
 adoptions = pd.read_csv('animals_data.csv')
 
 st.title('Pet Available for Adoption in UT')
+# Filter by dogs and cats tabs
+cats = adoptions[adoptions['species'] == 'Cat']
+dogs = adoptions[adoptions['species'] == 'Dog']
 
 tab1, tab2 = st.tabs(['Cats', 'Dogs'])
 
