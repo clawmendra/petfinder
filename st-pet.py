@@ -1,8 +1,5 @@
-import requests
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import streamlit as st
 from my_plots import *
 
@@ -45,7 +42,7 @@ with tab2:
     st.plotly_chart(dog_fig)
 
     # Sidebar Wideget
-    st.sidebar.header('Look at a random pet!')
+    st.sidebar.header('Give me a random pet!')
     if st.sidebar.button('Click Here', type = 'primary'):
         random_num = np.random.randint(0, len(adoptions))
         random_pet = adoptions.iloc[random_num]

@@ -32,7 +32,6 @@ def animal_plot(df, sex, ages):
         pets,
         x='Age Range', 
         y='Count',
-        title=f'Distribution of {sex} pets by Age',
         color='Age Range',
         color_discrete_sequence=px.colors.qualitative.Set3
     )
