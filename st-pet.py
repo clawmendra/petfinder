@@ -37,7 +37,7 @@ with tab2:
         genders2
     )
     
-    st.header(f'Distribution of {gender_option} Dogs by Age')
+    st.header(f'Distribution of {gender_option2} Dogs by Age')
     dog_fig = animal_plot(df=dogs, sex=gender_option2, ages=age_selected2)
     st.plotly_chart(dog_fig)
 
